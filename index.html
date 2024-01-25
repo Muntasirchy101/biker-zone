@@ -39,6 +39,7 @@
 
 <body class="font-family">
     <header class="md:container md:mx-auto">
+        <!-- nav starts here  -->
         <div class="navbar bg-base-100">
             <div class="flex-1">
                 <div class="dropdown">
@@ -71,12 +72,11 @@
                 <a class="btn bg-bike-primary text-white hover:bg-red-500 px-5 lg:px-12">Login</a>
             </div>
         </div>
-    </header>
+        <!-- nav ends here  -->
 
-    <main class="md:container md:mx-auto">
-        <!-- banner section starts here  -->
+         <!-- banner section starts here  -->
 
-        <div class="carousel w-full lg:h-[550px]">
+         <div class="carousel w-full lg:h-[550px]">
             <div id="slide1" class="carousel-item relative w-full">
                 <div class="flex lg:flex-row flex-col gap-20 lg:p-28 p-4">
                     <div class="flex-1 content ">
@@ -148,6 +148,66 @@
         </div>
 
         <!-- banner section ends here  -->
+    </header>
+
+    <main class="md:container md:mx-auto">
+        <!-- featured bikes starts here  -->
+        <section class="featured-section mt-16">
+            <div class="content">
+                <h2 class="text-center text-5xl font-semibold">Fetured Bikes In This Year</h2>
+                <p class="text-center text-red-700"><small>Best bike collection</small></p>
+                
+            </div>
+            <div class="div grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1  lg:p-28 p-8 gap-28 ">
+                <img src="images/others/pic1.png" alt="">
+                <img src="images/others/feature-bike.png" alt="">
+                <img src="images/others/pic1.png" alt="">
+            </div>
+        </section>
+        <!-- featured bike ends here  -->
+
+        <!-- latest bikes news starts here  -->
+        <section class="latest-bikes space-y-24">
+            <div class="div grid lg:grid-cols-3 md:grid-cols-2 sm:grid-col-1 gap-5 lg:p-5 p-2 ">
+                <!-- first card  -->
+                <div class="card bg-base-100 shadow-xl  shadow-[0px 0px 4px 0px rgba(0, 0, 0, 0.15)] p-1">
+                    <figure><img src="images/others/latest1.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title font-semibold text-3xl">Ducati XDIAVEL S-73</h2>
+                      <p class="font-normal text-[16px] mt-[20px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                      <div class="card-actions">
+                        <button class="btn bg-bike-primary text-white hover:bg-red-500 px-5 mt-[20px]">Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- second card  -->
+                <div class="card bg-base-100 shadow-xl  shadow-[0px 0px 4px 0px rgba(0, 0, 0, 0.15)]">
+                    <figure><img src="images/others/latest2.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title font-semibold text-3xl">Ducati XDIAVEL S-73</h2>
+                      <p class="font-normal text-[16px] mt-[20px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                      <div class="card-actions">
+                        <button class="btn bg-bike-primary text-white hover:bg-red-500 px-5 mt-[20px]">Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- third card  -->
+                <div class="card bg-base-100 shadow-xl  shadow-[0px 0px 4px 0px rgba(0, 0, 0, 0.15)]">
+                    <figure><img src="images/others/latest3.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title font-semibold text-3xl">Ducati XDIAVEL S-73</h2>
+                      <p class="font-normal text-[16px] mt-[20px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                      <div class="card-actions">
+                        <button class="btn bg-bike-primary text-white hover:bg-red-500 px-5 mt-[20px]">Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
+        <!-- latest bikes news ends here  -->
+       
     </main>
 
     <footer>
